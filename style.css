@@ -1,0 +1,25 @@
+.wrapper {
+    border-bottom: 0;
+}
+
+canvas#signature-pad {
+    border: 3px solid #4b00ff;
+    background: #fff;
+    cursor: crosshair;
+}
+
+button#clear {
+    width: 74.8%;
+    height: 35px;
+    background-color: #444444;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+}
+
+button#clear:hover {
+    background-color: black;
+    color: white;
+}
